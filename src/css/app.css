@@ -1,0 +1,25 @@
+@import-normalize;
+@import 'fonts.css';
+@import 'recipe-list.css';
+@import 'buttons.css';
+@import 'recipe.css';
+@import 'ingredientList.css';
+@import 'recipe-edit.css';
+
+*,*::before,*::after{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, serif, monospace , sans-serif ;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 22px;
+}
+
+.mr-1{
+    margin-right: 5px ;
+}
